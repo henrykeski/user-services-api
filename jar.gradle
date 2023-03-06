@@ -1,0 +1,13 @@
+//jar {
+//    manifest {
+//        attributes (
+//                'Build-Date' : common.buildDate,
+//                'Specification-Title': 'userservices api',
+//                'Specification-Version' : common.buildNumber,
+//                'Implementation-Title': 'userservices api',
+//                'Implementation-Version': common.buildNumber,
+//                'Implementation-Vendor': 'Henry',
+//                'Implementaion-Vendor-Id' : 'com.learn'
+//        )
+//    }
+//}

@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.learn.userservices",
+    "module": "user-services-api",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "user-services-api-1.1.jar",
+          "url": "user-services-api-1.1.jar",
+          "size": 1915,
+          "sha512": "49c8d5c3057f34b55e75563ae885df848bc35378f2bace3328ef3fff7b614c42b432d43210ebc024100f7af77d166f70fd7838578c8af34a4b103af56bc04d25",
+          "sha256": "522302c089e6b5bab5faf7d61759dff813255fbf58ce16dce333cf6595317a48",
+          "sha1": "76044dd00c0cf6b4a1c18de4fc66f73b0fd08b28",
+          "md5": "d23be370ac9cfdfe6c812799d5c0e725"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "javax.ws.rs",
+          "module": "javax.ws.rs-api",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-core",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "user-services-api-1.1.jar",
+          "url": "user-services-api-1.1.jar",
+          "size": 1915,
+          "sha512": "49c8d5c3057f34b55e75563ae885df848bc35378f2bace3328ef3fff7b614c42b432d43210ebc024100f7af77d166f70fd7838578c8af34a4b103af56bc04d25",
+          "sha256": "522302c089e6b5bab5faf7d61759dff813255fbf58ce16dce333cf6595317a48",
+          "sha1": "76044dd00c0cf6b4a1c18de4fc66f73b0fd08b28",
+          "md5": "d23be370ac9cfdfe6c812799d5c0e725"
+        }
+      ]
+    }
+  ]
+}
